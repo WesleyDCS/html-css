@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: black;
+    background-color: #F5F0DA;
+}
+
+#principal{
+    font-family: "geneva", Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #B5B2A1;
+    text-align: center;
+    background-color: #393833;
+}
+.titulo{
+    font-family: "geneva", Tahoma, sans-serif;
+    color: #DBD7C3;
+    font-size:23px;
+    background-color: #757368;
+
+}
+h2{
+    font-size: 15px;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.basico{
+    color: rgb(61, 107, 61);
+    background-color: #DBD7C3;
+}
+.medio{
+    color: rgb(142, 134, 73);
+    background-color: #DBD7C3;
+}
+.avancado{
+    color:rgb(152, 62, 62);
+    background-color: #DBD7C3;
+}

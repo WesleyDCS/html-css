@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        .t1{ /* box-level*/
+            background-color: rgb(114, 114, 114);
+            border: 3px solid black;
+            width: 1000px;
+            height: 100px;
+            color: rgb(61, 61, 197);
+            padding: 20px;
+            margin: 10px;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        a{ /* inline-level*/
+            border:5px solid grey;
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            padding: 2px 3px;
+        }
+        .t2{
+            background-color: rgb(114, 114, 114);
+            border: 3px solid black;
+            color: rgb(61, 61, 197);
+            padding: 20px;
+            margin: 10px;
+            display: inline-block; /*display invertido*/
+        }
+        .a1{
+            border:5px solid grey;
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            padding: 2px 3px;
+            display: block; /*display invertido*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class="t1">Exemplo de caixa box-level</h1>
+    <h1 class="t1">Exemplo de caixa2</h1>
+    
+    <p>Parágrafos também são exemplos de box-level,mas os <a href="#">Links são exemplos de caixas inline-level.</a> <a href="#">Vamos ver como isso funciona.</a></p>
+    
+    <h1 class="t2">Display invertido</h1>
+    <h1 class="t2">Display invertido2</h1>
+    
+    <p>conseguimos inverter o display "padrão" dos elementos usando a <a href="#" class="a1">"propriedade"</a> display e colocando o <a href="#" class="a1">"valor"</a> desejado</p>
+</body>
+</html>
